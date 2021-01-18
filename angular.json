@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "sessionManagement": {
@@ -119,6 +119,11 @@
           }
         }
       }
-    }},
-  "defaultProject": "sessionManagement"
+    }
+  },
+  "defaultProject": "sessionManagement",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics",
+    "analytics": "ffce6cd1-acf5-4168-a0f0-5ea150115568"
+  }
 }
